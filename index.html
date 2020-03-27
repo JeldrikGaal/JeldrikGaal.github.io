@@ -1,8 +1,15 @@
 <!doctype html>
 <style>
+@body-bg:    #fff;
 body {
   font-family: "Lato", sans-serif;
+  background-color: : "#E6E6FA";
 }
+
+.Billiard {
+
+}
+
 
 .sidenav {
   height: 100%;
@@ -55,21 +62,41 @@ body {
 
     <title>Hello, world!</title>
   </head>
-  <body>
+  <body class="bg-primary">
     <center> <h1>Game Portfolio Jeldrik Gaal</h1> </center>
 
-    <img src="first_shot.gif" />
 
-	<div id="mySidenav" class="sidenav">
-	  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-	  <a href="#">About</a>
-	  <a href="#">Projects</a>
-	  <a href="#">Contact</a>
-	</div>
-
+<div class="row">
+	<div class="col-md-1">	
+		<div id="mySidenav" class="sidenav">
+		  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+		  <a href="#">About</a>
+		  <a href="#">Projects</a>
+		  <a href="#">Contact</a>
+		</div>
 	<!-- Use any element to open the sidenav -->
 	<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open</span>
-
+	</div>
+	<div class="col-md-4"><div class="purple-gradient color-block mb-3 mx-auto rounded-circle z-depth-1"></div></div>
+ 	<div class="col-md-4"><!-- Billiard Page -->
+		<div id='Billiard_text'>
+			<h2> Pool </h2>
+		</div>
+	</div>
+</div>
+<div class="row">
+	<div class="col-md-1"> <p></p> </div>
+</div>
+<div class="row">
+	<div class="col-md-4"></div>
+	<div class="col-md-1"> Lorem Ipsum dolor sid Amed</div>
+ 	<div class="col-md-4"><!-- Billiard Page -->
+		<div id='Billiard'>
+			<img src="first_shot.gif" />
+		</div>
+	</div>
+</div>
+		
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
